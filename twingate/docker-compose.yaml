@@ -1,0 +1,24 @@
+---
+# -- (Optional) When using a custom network
+# networks:
+#   your-custom-network:
+#     -- (Optional) When attaching an external network
+#     external: true
+services:
+  twingate_connector:
+    container_name: twingate_connector
+    image: twingate/connector:latest
+    environment:
+      - TWINGATE_NETWORK=arnho
+      - TWINGATE_ACCESS_TOKEN=eyJhbGciOiJFUzI1NiIsImtpZCI6IkdRTmdtOFI3eWlSWTN5ek9zV2VVZHQ4MVRUcUhpbUxFbFVrY2pPUlpJdFUiLCJ0eXAiOiJEQVQifQ.eyJudCI6IkFOIiwiYWlkIjoiMzA3MTk0IiwiZGlkIjoiMTUyMTg2OSIsImp0aSI6IjdjOWRmMTljLWVmMjgtNDczYS1iM2QzLWVhMTIyYWE3ODJmMiIsImlzcyI6InR3aW5nYXRlIiwiYXVkIjoiYXJuaG8iLCJleHAiOjE3MjA2MTYyMjcsImlhdCI6MTcyMDYxMjYyNywidmVyIjoiNCIsInRpZCI6IjkyNTM4Iiwicm53IjoxNzIwNjEyOTM4LCJybmV0aWQiOiIxMjA5MjEifQ.aDjuARqEpK5hi-CFhPCkAH8uhagEglo9LC6DeyOWFpf-r3kuu4erSEuEoEpR6CjecBwgEF_U0plkqr4DS4oesg
+      - TWINGATE_REFRESH_TOKEN=yDXX-KOiJVo35kk4wXTgIncF9fJqakk01ke7gpYsMkpKcO6mmzUuWuZSoYR2zEGhlgjZx0MVT_LM7LZDb7Pl1HD27M6ErbAZ9KRDZauOZ3xz0C3LK05Tn4iu68ZgowmTzyE0qQ
+      # -- (Optional) Change loglevel
+      # - TWINGATE_LOG_LEVEL=3
+      # -- (Optional) Add custom DNS Server
+      - TWINGATE_DNS=192.168.1.173
+    sysctls:
+      net.ipv4.ping_group_range: "0 2147483647"
+    # -- (Optional) When using a custom network
+    # networks:
+    #   - your-custom-network
+    restart: unless-stopped

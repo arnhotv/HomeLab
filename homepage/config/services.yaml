@@ -1,0 +1,72 @@
+---
+
+- Networking:
+    - PiHole:
+        icon: pi-hole.png
+        href: https://pihole.arnho.org/
+        description: DNS 1
+        ping: 192.168.1.173
+        statusStyle: "dot"
+    - Traefik:
+        icon: traefik.png
+        href: https://traefik-dashboard.arnho.org/
+        description: Reverse proxy
+        ping: 192.168.1.130:443
+        statusStyle: "dot"
+
+- Infrastructure and Data:
+    - PVE:
+        icon: proxmox.png
+        href: https://pve.arnho.org/
+        description: Proxmox pve
+        ping: 192.168.1.50
+        statusStyle: "dot"
+        widget:
+            type: proxmox
+            url: https://192.168.1.50:8006
+            username: API@pam!homepage
+            password: 30ff27e1-244b-4ca1-9086-e21d998e9a00
+            node: pve
+    - SHERKA:
+        icon: proxmox.png
+        href: https://sherka.arnho.org/
+        description: Proxmox Sherka
+        ping: 192.168.1.53
+        statusStyle: "dot"
+        widget:
+            type: proxmox
+            url: https://192.168.1.53:8006
+            username: API@pam!homepage
+            password: 30ff27e1-244b-4ca1-9086-e21d998e9a00
+            node: sherka
+    - MEGATRON:
+        icon: proxmox.png
+        href: https://megatron.arnho.org/
+        description: Proxmox Megatron
+        ping: 192.168.1.51
+        statusStyle: "dot"
+        widget:
+            type: proxmox
+            url: https://192.168.1.51:8006
+            username: API@pam!homepage
+            password: 30ff27e1-244b-4ca1-9086-e21d998e9a00
+            node: megatron
+    - TrueNAS:
+        icon: truenas.png
+        href: https://truenas.arnho.org/
+        description: NAS 1
+        ping: 192.168.1.14
+        statusStyle: "dot"
+
+- Management:
+    - Portainer:
+        icon: portainer.png
+        href: https://portainer.arnho.org/
+        description: Docker WEB interface
+        ping: 192.168.1.130
+        statusStyle: "dot"
+        widget:
+            type: portainer
+            url: https://192.168.1.130:9443
+            env: 7
+            key: ptr_pL0XizXKIsepcgkX0TGYm5XTtZsoG7tAqbGsqwMIR3I=

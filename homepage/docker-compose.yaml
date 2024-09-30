@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3000:3000
+    volumes:
+      - ./config:/app/config # Make sure your local config directory exists
+      - ./images:/app/public/images
+      - ./icons:/app/public/icons
+    environment:
+      PUID: 1000
+      PGID: 1000
+    env_file: ./config/.env
+    restart: unless-stopped

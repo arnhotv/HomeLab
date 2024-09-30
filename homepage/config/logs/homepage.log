@@ -1,0 +1,3412 @@
+[2024-05-23T15:20:49.257Z] info: docker.yaml was copied to the config folder
+[2024-05-23T15:20:49.258Z] info: services.yaml was copied to the config folder
+[2024-05-23T15:20:49.259Z] info: bookmarks.yaml was copied to the config folder
+[2024-05-23T15:20:49.263Z] info: widgets.yaml was copied to the config folder
+[2024-05-23T15:20:49.264Z] info: custom.css was copied to the config folder
+[2024-05-23T15:20:49.264Z] info: custom.js was copied to the config folder
+[2024-05-23T15:20:49.275Z] info: kubernetes.yaml was copied to the config folder
+[2024-05-29T15:55:41.159Z] error: Failed to load services.yaml, please check for errors
+[2024-05-29T15:55:41.160Z] error: YAMLException: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-29T15:55:41.213Z] error: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-29T15:55:41.214Z] error: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-29T15:55:41.220Z] error: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-29T15:55:41.264Z] error: Failed to load services.yaml, please check for errors
+[2024-05-29T15:55:41.264Z] error: YAMLException: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-29T15:55:41.574Z] error: Failed to load services.yaml, please check for errors
+[2024-05-29T15:55:41.574Z] error: YAMLException: duplicated mapping key (9:9)
+
+  6 |     - PVE:
+  7 |         icon: proxmox.png
+  8 |         href: https://192.168.1.50:8006/
+  9 |         href: https://pve.arnho.org/
+--------------^
+ 10 |         description: Proxmox pve
+ 11 |         ping: 192.168.1.50
+[2024-05-30T18:35:41.516Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:35:41.516Z] error: YAMLException: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.524Z] error: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.525Z] error: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.525Z] error: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.532Z] error: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.533Z] error: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.534Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:35:41.534Z] error: YAMLException: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:35:41.643Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:35:41.644Z] error: YAMLException: bad indentation of a mapping entry (34:9)
+
+ 31 | 
+ 32 | - Container Docker:
+ 33 |         - Traefik:
+ 34 |         icon: traefik.png
+--------------^
+ 35 |         href: https://traefik-dashboard ...
+ 36 |         description: Reverse proxy
+[2024-05-30T18:40:34.840Z] error: <service-helpers> Error getting services from Docker server 'traefik': Error: (HTTP code 404) unexpected - 404 page not found
+ 
+    at /app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:382:17
+    at getCause (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:417:7)
+    at Modem.buildPayload (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:378:5)
+    at IncomingMessage.<anonymous> (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:346:16)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  reason: undefined,
+  statusCode: 404,
+  json: <Buffer 34 30 34 20 70 61 67 65 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+[2024-05-30T18:40:34.862Z] error: <service-helpers> Error getting services from Docker server 'traefik': Error: (HTTP code 404) unexpected - 404 page not found
+ 
+    at /app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:382:17
+    at getCause (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:417:7)
+    at Modem.buildPayload (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:378:5)
+    at IncomingMessage.<anonymous> (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:346:16)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  reason: undefined,
+  statusCode: 404,
+  json: <Buffer 34 30 34 20 70 61 67 65 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+[2024-05-30T18:40:34.883Z] error: <service-helpers> Error getting services from Docker server 'traefik': Error: (HTTP code 404) unexpected - 404 page not found
+ 
+    at /app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:382:17
+    at getCause (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:417:7)
+    at Modem.buildPayload (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:378:5)
+    at IncomingMessage.<anonymous> (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:346:16)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  reason: undefined,
+  statusCode: 404,
+  json: <Buffer 34 30 34 20 70 61 67 65 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+[2024-05-30T18:40:34.997Z] error: <service-helpers> Error getting services from Docker server 'traefik': Error: (HTTP code 404) unexpected - 404 page not found
+ 
+    at /app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:382:17
+    at getCause (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:417:7)
+    at Modem.buildPayload (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:378:5)
+    at IncomingMessage.<anonymous> (/app/node_modules/.pnpm/docker-modem@5.0.3/node_modules/docker-modem/lib/modem.js:346:16)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  reason: undefined,
+  statusCode: 404,
+  json: <Buffer 34 30 34 20 70 61 67 65 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+[2024-05-30T18:46:50.364Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:46:58.969Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:13.674Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:13.816Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:17.276Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:26.846Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:26.965Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:47:29.873Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:48:08.129Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:48:08.251Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:48:12.487Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:48:33.504Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'docker-pve')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-05-30T18:49:28.917Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/...
+[2024-05-30T18:49:28.917Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-05-30T18:49:28.977Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/...
+[2024-05-30T18:49:28.978Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-05-30T18:52:17.824Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:52:17.824Z] error: YAMLException: end of the stream or a document separator is expected (7:1)
+
+ 4 | useEqualHeights: true
+ 5 | 
+ 6 | 
+ 7 | - HomeLab:
+-----^
+ 8 |     - PVE:
+ 9 |         icon: proxmox.png
+[2024-05-30T18:52:17.932Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:52:17.932Z] error: YAMLException: end of the stream or a document separator is expected (7:1)
+
+ 4 | useEqualHeights: true
+ 5 | 
+ 6 | 
+ 7 | - HomeLab:
+-----^
+ 8 |     - PVE:
+ 9 |         icon: proxmox.png
+[2024-05-30T18:52:31.604Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:52:31.604Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 | 
+ 5 | - HomeLab:
+ 6 |     useEqualHeights: true
+ 7 |     - PVE:
+---------^
+ 8 |         icon: proxmox.png
+ 9 |         href: https://pve.arnho.org/
+[2024-05-30T18:52:31.695Z] error: Failed to load services.yaml, please check for errors
+[2024-05-30T18:52:31.695Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 | 
+ 5 | - HomeLab:
+ 6 |     useEqualHeights: true
+ 7 |     - PVE:
+---------^
+ 8 |         icon: proxmox.png
+ 9 |         href: https://pve.arnho.org/
+[2024-08-02T14:09:13.186Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:09:13.188Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:09:13.189Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:09:51.481Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:09:51.482Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:09:51.482Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:09:52.247Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:09:52.247Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:09:52.248Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:10:13.303Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:10:13.304Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:10:13.304Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:10:45.993Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:10:45.994Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:10:45.994Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:10:48.613Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:10:48.614Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:10:48.614Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:14:49.749Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:14:49.750Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:14:49.751Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:14:50.442Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:14:50.442Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:14:50.443Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:16:29.179Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:16:29.179Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:16:29.179Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:16:29.755Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:16:29.755Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:16:29.755Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:16:42.846Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/api2/json/cluster/resources...
+[2024-08-02T14:16:42.847Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:16:42.847Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org:8006/api2/json/cluster/resources
+[2024-08-02T14:16:47.415Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:16:47.415Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:16:47.415Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:01.943Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:01.943Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:01.943Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:02.465Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:02.466Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:02.466Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:22.340Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:22.340Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:22.340Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:22.910Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:22.910Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:22.910Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:31.143Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:31.144Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:31.144Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:31.658Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:31.658Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:31.658Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:17:34.408Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:17:34.408Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:17:34.408Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:18:19.275Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:18:19.275Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:18:19.275Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:18:19.844Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:18:19.844Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:18:19.844Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:18:30.243Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:18:30.243Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:18:30.243Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:18:30.718Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:18:30.719Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:18:30.719Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:18:54.073Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:18:54.073Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:18:54.073Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:20:45.577Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:20:45.578Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:45.578Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:20:46.028Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:20:46.028Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:46.040Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:20:46.040Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:46.153Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:20:46.153Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:46.154Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:20:58.084Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:20:58.084Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.095Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:20:58.095Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.152Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:20:58.152Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.152Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:20:58.534Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:20:58.534Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.553Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:20:58.553Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.665Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:20:58.666Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:20:58.666Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:05.549Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:21:05.549Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:05.564Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:21:05.564Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:05.689Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:05.689Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:05.689Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:06.042Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:21:06.043Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:06.056Z] error: <httpProxy> Error calling https://pve.arnho.org:8006/...
+[2024-08-02T14:21:06.056Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:06.160Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:06.160Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:06.161Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:14.381Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:21:14.381Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.391Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:21:14.392Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.494Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:14.494Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.494Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:14.849Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:21:14.850Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.861Z] error: <httpProxy> Error calling https://pve.arnho.org/...
+[2024-08-02T14:21:14.861Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.974Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:14.974Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:14.974Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:29.307Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:29.307Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:29.307Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:29.781Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:29.781Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:29.781Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:33.461Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:33.462Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:33.462Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:37.252Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:37.252Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:37.252Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:45.982Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:45.982Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:45.982Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:21:46.495Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:21:46.495Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:21:46.495Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:29:38.479Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:29:38.480Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:29:38.480Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:29:57.828Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:29:57.828Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:29:57.828Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:30:05.060Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:30:05.060Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:30:05.060Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:31:07.609Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:31:07.609Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:31:07.610Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:38:42.859Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:38:42.860Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:38:42.860Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:38:50.670Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:38:50.670Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:38:50.670Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:39:24.485Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:39:24.485Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:39:24.485Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:39:25.014Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:39:25.017Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:39:25.017Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:53:34.497Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:53:34.498Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:53:34.498Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:57:15.886Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:57:15.887Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:57:15.887Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T14:57:21.134Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T14:57:21.135Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T14:57:21.135Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:32:39.413Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:32:39.414Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:32:39.414Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:47:27.727Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:47:27.727Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:47:27.728Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:47:28.212Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:47:28.213Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:47:28.213Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:47:31.354Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:47:31.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:47:31.354Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:47:44.332Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:47:44.332Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:47:44.332Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:47:44.878Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:47:44.879Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:47:44.879Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:48:21.658Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:48:21.658Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:48:21.659Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:48:22.463Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:48:22.463Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:48:22.464Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:48:45.783Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:48:45.783Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:48:45.783Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:48:46.227Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:48:46.227Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:48:46.227Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:49:08.917Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:49:08.917Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:49:08.917Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:49:10.205Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:49:10.205Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:49:10.205Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:49:30.504Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:49:30.504Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:49:30.504Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:49:31.224Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:49:31.224Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:49:31.224Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:49:46.906Z] error: <httpProxy> Error calling https://pve.arnho.org//api2/json/cluster/resources...
+[2024-08-02T15:49:46.906Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:49:46.906Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org//api2/json/cluster/resources
+[2024-08-02T15:50:08.625Z] error: undefined
+[2024-08-02T15:50:09.073Z] error: undefined
+[2024-08-02T15:50:14.302Z] error: undefined
+[2024-08-02T15:50:28.217Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:50:28.217Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:50:28.217Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:50:28.512Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:50:28.512Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:50:28.512Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:51:03.088Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:51:03.088Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:51:03.088Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:54:50.125Z] error: undefined
+[2024-08-02T15:54:54.050Z] error: undefined
+[2024-08-02T15:54:59.145Z] error: undefined
+[2024-08-02T15:55:01.325Z] error: undefined
+[2024-08-02T15:55:06.410Z] error: undefined
+[2024-08-02T15:55:15.699Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:55:15.699Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:55:15.699Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T15:55:16.171Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T15:55:16.171Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T15:55:16.171Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:00:20.026Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:00:20.026Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:00:20.026Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:03:45.478Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:03:45.478Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:03:45.478Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:03:46.120Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:03:46.120Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:03:46.121Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:04:12.680Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:04:12.680Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:04:12.680Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:04:13.217Z] error: <httpProxy> Error calling https://portainer.arnho.org:9443/api/endpoints/2/docker/containers/json...
+[2024-08-02T16:04:13.217Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND portainer.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer.arnho.org'
+  }
+]
+[2024-08-02T16:04:13.217Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.arnho.org:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-08-02T16:04:13.280Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:04:13.280Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:04:13.280Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:04:34.426Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:04:34.426Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:04:34.426Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:04:34.921Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:04:34.921Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:04:34.921Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:04:44.832Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:04:44.832Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:04:44.832Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:06:26.604Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:06:26.605Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:06:26.605Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-02T16:06:28.765Z] error: <httpProxy> Error calling https://pve.arnho.org/api2/json/cluster/resources...
+[2024-08-02T16:06:28.765Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pve.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pve.arnho.org'
+  }
+]
+[2024-08-02T16:06:28.765Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://pve.arnho.org/api2/json/cluster/resources
+[2024-08-04T18:20:01.325Z] error: <httpProxy> Error calling https://pihole.arnho.org/api/auth...
+[2024-08-04T18:20:01.328Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole.arnho.org'
+  }
+]
+[2024-08-04T18:20:01.328Z] error: undefined
+[2024-08-04T18:20:06.372Z] error: <httpProxy> Error calling https://pihole.arnho.org/api/auth...
+[2024-08-04T18:20:06.372Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole.arnho.org'
+  }
+]
+[2024-08-04T18:20:06.373Z] error: undefined
+[2024-08-04T18:20:15.314Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:15.315Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:15.315Z] error: undefined
+[2024-08-04T18:20:15.499Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:15.499Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:15.499Z] error: undefined
+[2024-08-04T18:20:21.167Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:21.168Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:21.168Z] error: undefined
+[2024-08-04T18:20:21.323Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:21.323Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:21.324Z] error: undefined
+[2024-08-04T18:20:26.354Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:26.354Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:26.354Z] error: undefined
+[2024-08-04T18:20:28.032Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:28.032Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:28.032Z] error: undefined
+[2024-08-04T18:20:28.175Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:28.175Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:28.175Z] error: undefined
+[2024-08-04T18:20:38.197Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:38.198Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:38.198Z] error: undefined
+[2024-08-04T18:20:40.047Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:40.047Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:40.047Z] error: undefined
+[2024-08-04T18:20:40.200Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:40.200Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:40.200Z] error: undefined
+[2024-08-04T18:20:45.223Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:45.223Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:45.223Z] error: undefined
+[2024-08-04T18:20:46.782Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:46.783Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:46.785Z] error: undefined
+[2024-08-04T18:20:46.965Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:20:46.965Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:20:46.965Z] error: undefined
+[2024-08-04T18:21:34.575Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:21:34.575Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:21:34.576Z] error: undefined
+[2024-08-04T18:21:36.088Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:21:36.089Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:21:36.089Z] error: undefined
+[2024-08-04T18:21:46.792Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-04T18:21:46.792Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-04T18:21:46.792Z] error: undefined
+[2024-08-04T18:22:57.586Z] error: <httpProxy> Error calling https://pi.hole/api/auth...
+[2024-08-04T18:22:57.586Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2024-08-04T18:22:57.586Z] error: undefined
+[2024-08-04T18:22:57.668Z] error: <httpProxy> Error calling https://pi.hole/api/auth...
+[2024-08-04T18:22:57.668Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2024-08-04T18:22:57.668Z] error: undefined
+[2024-08-04T18:23:04.499Z] error: <httpProxy> Error calling http://pi.hole/api/auth...
+[2024-08-04T18:23:04.499Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2024-08-04T18:23:04.500Z] error: undefined
+[2024-08-04T18:23:04.669Z] error: <httpProxy> Error calling http://pi.hole/api/auth...
+[2024-08-04T18:23:04.672Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2024-08-04T18:23:04.672Z] error: undefined
+[2024-08-04T18:23:09.702Z] error: <httpProxy> Error calling http://pi.hole/api/auth...
+[2024-08-04T18:23:09.702Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2024-08-04T18:23:09.702Z] error: undefined
+[2024-08-04T18:23:12.088Z] error: undefined
+[2024-08-04T18:23:12.226Z] error: undefined
+[2024-08-04T18:23:19.589Z] error: undefined
+[2024-08-04T18:23:19.734Z] error: undefined
+[2024-08-04T18:23:24.150Z] error: undefined
+[2024-08-04T18:23:24.275Z] error: undefined
+[2024-08-04T18:23:29.791Z] error: undefined
+[2024-08-04T20:02:44.734Z] error: undefined
+[2024-08-04T20:02:45.167Z] error: undefined
+[2024-08-04T20:02:55.193Z] error: undefined
+[2024-08-04T20:03:05.635Z] error: undefined
+[2024-08-04T20:20:16.776Z] error: undefined
+[2024-08-04T20:20:17.412Z] error: undefined
+[2024-08-04T20:20:22.438Z] error: undefined
+[2024-08-04T20:20:47.601Z] error: undefined
+[2024-08-04T21:03:02.497Z] error: undefined
+[2024-08-04T21:03:12.536Z] error: undefined
+[2024-08-04T21:05:14.689Z] error: undefined
+[2024-08-04T21:05:19.715Z] error: undefined
+[2024-08-04T21:05:35.530Z] error: undefined
+[2024-08-04T21:15:57.893Z] error: undefined
+[2024-08-04T21:16:02.921Z] error: undefined
+[2024-08-04T21:16:04.924Z] error: undefined
+[2024-08-04T21:16:05.728Z] error: undefined
+[2024-08-04T21:16:11.509Z] error: undefined
+[2024-08-04T21:16:12.604Z] error: undefined
+[2024-08-04T21:16:14.135Z] error: undefined
+[2024-08-04T21:16:15.430Z] error: undefined
+[2024-08-04T21:16:25.529Z] error: undefined
+[2024-08-04T21:19:29.604Z] error: undefined
+[2024-08-04T21:19:34.620Z] error: undefined
+[2024-08-04T21:19:45.506Z] error: undefined
+[2024-08-04T21:27:58.143Z] error: undefined
+[2024-08-04T21:28:03.495Z] error: undefined
+[2024-08-04T21:41:05.522Z] error: undefined
+[2024-08-04T21:41:16.475Z] error: undefined
+[2024-08-04T21:41:19.103Z] error: undefined
+[2024-08-04T21:41:29.479Z] error: undefined
+[2024-08-04T21:58:00.405Z] error: undefined
+[2024-08-04T21:58:10.449Z] error: undefined
+[2024-08-04T22:07:34.716Z] error: undefined
+[2024-08-04T22:07:45.427Z] error: undefined
+[2024-08-05T09:09:51.009Z] error: undefined
+[2024-08-05T09:10:36.429Z] error: undefined
+[2024-08-05T09:10:39.227Z] error: undefined
+[2024-08-05T09:10:49.307Z] error: undefined
+[2024-08-05T09:11:04.387Z] error: undefined
+[2024-08-05T09:11:39.597Z] error: undefined
+[2024-08-05T09:12:49.809Z] error: undefined
+[2024-08-05T09:15:19.900Z] error: undefined
+[2024-08-05T09:18:44.127Z] error: undefined
+[2024-08-05T09:18:54.299Z] error: undefined
+[2024-08-05T09:18:55.118Z] error: undefined
+[2024-08-05T09:19:04.518Z] error: undefined
+[2024-08-05T09:19:45.504Z] error: undefined
+[2024-08-05T09:19:52.738Z] error: undefined
+[2024-08-05T09:19:59.606Z] error: undefined
+[2024-08-05T09:29:14.492Z] error: undefined
+[2024-08-05T09:29:15.155Z] error: undefined
+[2024-08-05T09:29:20.238Z] error: undefined
+[2024-08-05T09:29:45.610Z] error: undefined
+[2024-08-05T09:30:40.196Z] error: undefined
+[2024-08-05T09:30:43.421Z] error: undefined
+[2024-08-05T09:30:48.535Z] error: undefined
+[2024-08-05T09:30:53.621Z] error: undefined
+[2024-08-05T09:30:59.457Z] error: undefined
+[2024-08-05T09:31:09.642Z] error: undefined
+[2024-08-05T09:31:14.630Z] error: undefined
+[2024-08-05T09:36:58.768Z] error: undefined
+[2024-08-05T09:37:09.611Z] error: undefined
+[2024-08-05T09:37:23.577Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:37:23.798Z] error: undefined
+[2024-08-05T09:37:23.804Z] error: <index> YAMLException: expected a single document in the stream, but found more
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2812:9)
+    at bookmarksResponse (/app/.next/server/pages/index.js:3506:69)
+    at async getStaticProps (/app/.next/server/pages/index.js:3007:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:687:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:796:28)
+    at async /app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/response-cache/index.js:80:36
+[2024-08-05T09:37:24.088Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:37:28.612Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:37:59.101Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:38:00.263Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:38:11.680Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:38:26.192Z] error: expected a single document in the stream, but found more
+[2024-08-05T09:38:35.414Z] error: undefined
+[2024-08-05T09:38:45.620Z] error: undefined
+[2024-08-05T09:41:49.304Z] error: undefined
+[2024-08-05T09:41:59.629Z] error: undefined
+[2024-08-05T09:43:58.444Z] error: undefined
+[2024-08-05T09:43:59.126Z] error: undefined
+[2024-08-05T09:43:59.213Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/api/overview...
+[2024-08-05T09:43:59.214Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:44:09.271Z] error: undefined
+[2024-08-05T09:44:20.555Z] error: undefined
+[2024-08-05T09:44:20.570Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/dashboard/api/overview...
+[2024-08-05T09:44:20.570Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:44:21.245Z] error: undefined
+[2024-08-05T09:44:21.286Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/dashboard/api/overview...
+[2024-08-05T09:44:21.286Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:44:31.619Z] error: undefined
+[2024-08-05T09:45:36.557Z] error: undefined
+[2024-08-05T09:45:36.582Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org/dashboard/api/overview...
+[2024-08-05T09:45:36.582Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:45:37.310Z] error: undefined
+[2024-08-05T09:45:37.315Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org/dashboard/api/overview...
+[2024-08-05T09:45:37.316Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:45:42.613Z] error: undefined
+[2024-08-05T09:45:45.818Z] error: undefined
+[2024-08-05T09:45:45.834Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org//api/overview...
+[2024-08-05T09:45:45.834Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:45:46.299Z] error: undefined
+[2024-08-05T09:45:46.357Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org//api/overview...
+[2024-08-05T09:45:46.358Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:45:48.966Z] error: undefined
+[2024-08-05T09:45:48.976Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org//api/overview...
+[2024-08-05T09:45:48.976Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-05T09:45:59.616Z] error: undefined
+[2024-08-05T09:46:01.473Z] error: <httpProxy> Error calling http://192.168.1.130/api/overview...
+[2024-08-05T09:46:01.474Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:95:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:326:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:483:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:91:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-08-05T09:46:01.477Z] error: undefined
+[2024-08-05T09:46:01.983Z] error: <httpProxy> Error calling http://192.168.1.130/api/overview...
+[2024-08-05T09:46:01.983Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:95:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:326:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:483:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.6/node_modules/follow-redirects/index.js:91:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-08-05T09:46:01.998Z] error: undefined
+[2024-08-05T09:46:10.304Z] error: undefined
+[2024-08-05T09:46:10.844Z] error: undefined
+[2024-08-05T09:46:20.941Z] error: undefined
+[2024-08-05T09:46:46.073Z] error: undefined
+[2024-08-05T09:47:26.170Z] error: undefined
+[2024-08-05T09:48:11.659Z] error: undefined
+[2024-08-05T09:48:37.168Z] error: <piholeProxyHandler> Invalid or missing widget for service 'PiHole' in group 'HomeLab'
+[2024-08-05T09:48:37.251Z] error: undefined
+[2024-08-05T09:48:37.909Z] error: undefined
+[2024-08-05T09:48:48.000Z] error: undefined
+[2024-08-05T09:49:03.629Z] error: undefined
+[2024-08-05T09:49:07.267Z] error: undefined
+[2024-08-05T09:49:12.617Z] error: undefined
+[2024-08-05T09:49:26.646Z] error: undefined
+[2024-08-05T09:49:32.628Z] error: undefined
+[2024-08-05T09:51:07.094Z] error: <piholeProxyHandler> Invalid or missing widget for service 'PiHole' in group 'Infrastructure and Data'
+[2024-08-05T09:51:07.692Z] error: undefined
+[2024-08-05T09:51:17.769Z] error: undefined
+[2024-08-05T09:51:33.630Z] error: undefined
+[2024-08-05T09:52:12.828Z] error: undefined
+[2024-08-05T09:52:13.487Z] error: undefined
+[2024-08-05T09:52:23.620Z] error: undefined
+[2024-08-05T09:52:55.746Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:52:55.900Z] error: undefined
+[2024-08-05T09:52:55.974Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:52:56.309Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:52:56.517Z] error: undefined
+[2024-08-05T09:53:06.612Z] error: undefined
+[2024-08-05T09:53:31.810Z] error: undefined
+[2024-08-05T09:54:22.644Z] error: undefined
+[2024-08-05T09:55:10.795Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:55:10.925Z] error: undefined
+[2024-08-05T09:55:11.022Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:55:11.355Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:55:11.556Z] error: undefined
+[2024-08-05T09:55:21.786Z] error: undefined
+[2024-08-05T09:55:37.095Z] error: undefined
+[2024-08-05T09:55:57.618Z] error: undefined
+[2024-08-05T09:56:27.188Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:56:27.335Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:56:27.350Z] error: undefined
+[2024-08-05T09:56:27.410Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:56:27.792Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:56:28.103Z] error: undefined
+[2024-08-05T09:56:38.613Z] error: undefined
+[2024-08-05T09:57:00.001Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:00.222Z] error: undefined
+[2024-08-05T09:57:00.276Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:00.608Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:00.954Z] error: undefined
+[2024-08-05T09:57:06.040Z] error: undefined
+[2024-08-05T09:57:31.621Z] error: undefined
+[2024-08-05T09:57:44.509Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:44.650Z] error: undefined
+[2024-08-05T09:57:44.721Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:45.100Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:57:45.375Z] error: undefined
+[2024-08-05T09:57:55.616Z] error: undefined
+[2024-08-05T09:58:24.955Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T09:58:25.100Z] error: undefined
+[2024-08-05T09:58:30.650Z] error: undefined
+[2024-08-05T11:24:36.073Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:24:36.192Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:24:36.743Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:24:36.938Z] error: undefined
+[2024-08-05T11:24:37.792Z] error: undefined
+[2024-08-05T11:24:57.306Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:24:57.635Z] error: undefined
+[2024-08-05T11:25:06.245Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:25:06.403Z] error: undefined
+[2024-08-05T11:28:41.430Z] error: undefined
+[2024-08-05T11:28:45.597Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:28:46.176Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:28:46.682Z] error: undefined
+[2024-08-05T11:29:30.277Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:29:30.436Z] error: undefined
+[2024-08-05T11:29:30.581Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:29:31.055Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:29:31.321Z] error: undefined
+[2024-08-05T11:29:41.623Z] error: undefined
+[2024-08-05T11:32:49.157Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:32:49.338Z] error: undefined
+[2024-08-05T11:32:49.387Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:32:49.473Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:32:49.878Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:32:50.308Z] error: undefined
+[2024-08-05T11:32:50.376Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:32:52.349Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:32:52.378Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:32:52.392Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:32:53.378Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:32:53.381Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:32:53.406Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:32:58.458Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:32:58.712Z] error: undefined
+[2024-08-05T11:32:58.721Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:01.718Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:01.720Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:01.727Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:04.597Z] error: undefined
+[2024-08-05T11:33:10.577Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:24.189Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:24.735Z] error: undefined
+[2024-08-05T11:33:25.076Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:25.088Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:25.614Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:25.756Z] error: undefined
+[2024-08-05T11:33:25.841Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:27.741Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:27.743Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:27.893Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:28.076Z] error: undefined
+[2024-08-05T11:33:28.077Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:28.168Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:28.776Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:28.782Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:28.834Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:31.128Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:31.132Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:31.152Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:35.089Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:35.365Z] error: undefined
+[2024-08-05T11:33:35.444Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:38.434Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:38.437Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:38.446Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:40.710Z] error: undefined
+[2024-08-05T11:33:44.677Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:33:44.879Z] error: undefined
+[2024-08-05T11:33:44.889Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:33:46.536Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:47.887Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:47.889Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:47.891Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:33:49.982Z] error: undefined
+[2024-08-05T11:33:55.993Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:33:56.002Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:33:56.003Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:34:10.595Z] error: undefined
+[2024-08-05T11:36:42.542Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:36:42.860Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:36:43.148Z] error: undefined
+[2024-08-05T11:36:43.333Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:36:43.825Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:36:44.116Z] error: undefined
+[2024-08-05T11:36:44.131Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-05T11:36:45.713Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:36:45.714Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:36:45.853Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:36:47.122Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:36:47.134Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:36:47.135Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:36:54.292Z] error: undefined
+[2024-08-05T11:37:00.318Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:37:00.319Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:37:00.321Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:37:14.492Z] error: undefined
+[2024-08-05T11:37:28.417Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:37:28.418Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:37:28.419Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:37:34.585Z] error: undefined
+[2024-08-05T11:38:01.579Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.50:8006/api2/json/cluster/resources
+[2024-08-05T11:38:01.584Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.53:8006/api2/json/cluster/resources
+[2024-08-05T11:38:27.602Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.1.51:8006/api2/json/cluster/resources
+[2024-08-05T11:46:49.640Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:46:49.855Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:46:49.858Z] error: undefined
+[2024-08-05T11:46:50.227Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T11:46:50.478Z] error: undefined
+[2024-08-05T11:47:00.576Z] error: undefined
+[2024-08-05T12:04:18.288Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T12:04:18.468Z] error: undefined
+[2024-08-05T12:04:28.567Z] error: undefined
+[2024-08-05T12:27:31.550Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T12:27:31.947Z] error: undefined
+[2024-08-05T12:27:32.446Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T12:27:33.111Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T12:27:33.360Z] error: undefined
+[2024-08-05T12:27:38.459Z] error: undefined
+[2024-08-05T12:27:53.616Z] error: undefined
+[2024-08-05T13:44:50.924Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-05T13:44:51.060Z] error: undefined
+[2024-08-05T13:45:01.561Z] error: undefined
+[2024-08-07T21:16:46.463Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-07T21:16:47.471Z] error: undefined
+[2024-08-07T21:17:42.389Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-07T21:17:42.446Z] error: undefined
+[2024-08-07T21:17:44.997Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-07T21:17:45.371Z] error: undefined
+[2024-08-07T21:17:50.462Z] error: undefined
+[2024-08-07T21:18:06.188Z] error: undefined
+[2024-08-12T19:54:27.693Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-12T19:54:27.729Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-12T19:54:28.106Z] error: undefined
+[2024-08-12T19:54:28.119Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-12T19:54:38.196Z] error: undefined
+[2024-08-12T19:54:41.365Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-12T19:54:41.416Z] error: undefined
+[2024-08-12T19:54:41.445Z] error: <credentialedProxyHandler> HTTP Error 502 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-08-12T19:54:52.204Z] error: undefined
+[2024-08-13T08:34:27.937Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T08:34:27.957Z] error: undefined
+[2024-08-13T08:34:38.017Z] error: undefined
+[2024-08-13T08:35:03.959Z] error: undefined
+[2024-08-13T13:36:19.144Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T13:36:19.208Z] error: undefined
+[2024-08-13T13:36:29.606Z] error: undefined
+[2024-08-13T13:40:12.100Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T13:40:12.153Z] error: undefined
+[2024-08-13T13:40:17.598Z] error: undefined
+[2024-08-13T13:54:57.326Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T13:54:57.374Z] error: undefined
+[2024-08-13T13:55:07.590Z] error: undefined
+[2024-08-13T13:55:10.343Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T13:55:10.406Z] error: undefined
+[2024-08-13T13:55:20.440Z] error: undefined
+[2024-08-13T13:55:35.471Z] error: undefined
+[2024-08-13T13:56:10.593Z] error: undefined
+[2024-08-13T14:33:19.345Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:33:19.402Z] error: undefined
+[2024-08-13T14:33:24.546Z] error: undefined
+[2024-08-13T14:33:51.166Z] error: undefined
+[2024-08-13T14:33:51.190Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:34:01.561Z] error: undefined
+[2024-08-13T14:35:09.340Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:35:09.386Z] error: undefined
+[2024-08-13T14:35:19.537Z] error: undefined
+[2024-08-13T14:36:05.138Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:05.196Z] error: undefined
+[2024-08-13T14:36:05.216Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:05.258Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/api/overview...
+[2024-08-13T14:36:05.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:05.392Z] error: undefined
+[2024-08-13T14:36:05.399Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org/api/overview...
+[2024-08-13T14:36:05.399Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:05.458Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:10.418Z] error: undefined
+[2024-08-13T14:36:20.549Z] error: undefined
+[2024-08-13T14:36:40.845Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:40.897Z] error: undefined
+[2024-08-13T14:36:40.915Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org//api/overview...
+[2024-08-13T14:36:40.915Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:40.918Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:41.041Z] error: undefined
+[2024-08-13T14:36:41.051Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org//api/overview...
+[2024-08-13T14:36:41.051Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:41.063Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:46.953Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:47.008Z] error: undefined
+[2024-08-13T14:36:47.012Z] error: <httpProxy> Error calling https://traefik-dashboard.arnho.org//api/overview...
+[2024-08-13T14:36:47.012Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:51.006Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:51.135Z] error: undefined
+[2024-08-13T14:36:51.136Z] error: <httpProxy> Error calling http://traefik-dashboard.arnho.org//api/overview...
+[2024-08-13T14:36:51.136Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik-dashboard.arnho.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik-dashboard.arnho.org'
+  }
+]
+[2024-08-13T14:36:51.155Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:36:56.161Z] error: undefined
+[2024-08-13T14:37:03.380Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:03.430Z] error: undefined
+[2024-08-13T14:37:03.445Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:03.577Z] error: undefined
+[2024-08-13T14:37:03.588Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:13.613Z] error: undefined
+[2024-08-13T14:37:21.055Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:21.090Z] error: undefined
+[2024-08-13T14:37:21.103Z] error: undefined
+[2024-08-13T14:37:21.108Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:21.221Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:21.243Z] error: undefined
+[2024-08-13T14:37:31.275Z] error: undefined
+[2024-08-13T14:37:32.174Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:32.209Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T14:37:32.210Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T14:37:32.210Z] error: undefined
+[2024-08-13T14:37:32.226Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:32.349Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T14:37:32.349Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T14:37:32.349Z] error: undefined
+[2024-08-13T14:37:32.404Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T14:37:42.532Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T14:37:42.532Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T14:37:42.532Z] error: undefined
+[2024-08-13T18:36:23.960Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T18:36:23.961Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T18:36:23.961Z] error: undefined
+[2024-08-13T18:36:23.995Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:28.980Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T18:36:28.980Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T18:36:28.980Z] error: undefined
+[2024-08-13T18:36:31.039Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:31.146Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:31.165Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T18:36:31.165Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T18:36:31.166Z] error: undefined
+[2024-08-13T18:36:40.592Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:40.638Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T18:36:40.638Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T18:36:40.638Z] error: undefined
+[2024-08-13T18:36:41.192Z] error: <httpProxy> Error calling https://192.168.1.173/api/auth...
+[2024-08-13T18:36:41.193Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.173:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.173',
+    port: 443
+  }
+]
+[2024-08-13T18:36:41.193Z] error: undefined
+[2024-08-13T18:36:50.655Z] error: <piholeProxyHandler> Invalid or missing widget for service 'PiHole' in group 'Networking'
+[2024-08-13T18:36:50.877Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:50.927Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:36:51.020Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:44:37.215Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T18:59:12.650Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T19:04:38.632Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T19:04:39.368Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-13T19:04:39.795Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-14T08:09:31.951Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-08-14T08:12:04.920Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:12.848Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:13.152Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:13.499Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:23.036Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:36.723Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:15:50.516Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-12T17:27:07.540Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:06:14.846Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:06:15.097Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:06:15.467Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:10:26.519Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:11:55.345Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:15:55.299Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:16.901Z] error: <credentialedProxyHandler> HTTP Error 502 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-09-15T22:18:17.923Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:19.764Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:20.699Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:22.170Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:24.031Z] error: <credentialedProxyHandler> HTTP Error 502 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-09-15T22:18:24.034Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:25.649Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-15T22:18:27.349Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:12:55.683Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:12:56.132Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:12:56.657Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:13:11.403Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:15:49.582Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:16:07.668Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:16:15.995Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-17T16:16:16.230Z] error: <credentialedProxyHandler> HTTP Error 502 calling https://192.168.1.130:9443/api/endpoints/7/docker/containers/json?all=1
+[2024-09-25T12:44:37.967Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T12:44:38.695Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T12:45:08.017Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T12:57:04.044Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T12:59:26.351Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:13:03.692Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:13:06.232Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:18:17.672Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:22:43.937Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:22:45.653Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:39:22.982Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:39:30.518Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:39:35.999Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:41:51.287Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:42:01.825Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:42:07.750Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-25T13:42:53.360Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-28T22:58:37.925Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-28T22:58:38.225Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-28T22:58:59.249Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-29T21:54:35.177Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2024-09-30T11:57:24.253Z] error: <service-helpers> Error getting services from Docker server 'srv-prod-1': Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}

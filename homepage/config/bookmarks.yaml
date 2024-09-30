@@ -1,0 +1,22 @@
+---
+- Repositories:
+  - Homelab:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/christianlempa/homelab
+  - Boilerplates:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/christianlempa/boilerplates
+  - Cheat-Sheets:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/christianlempa/cheat-sheets
+  - Scripts:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/christianlempa/scripts
+
+- Cloud Services:
+  - Cloudflare:
+    - icon: cloudflare.png
+      href: https://dash.cloudflare.com
+  - Twingate:
+    - icon: twingate.png
+      href: https://arnho.twingate.com

@@ -1,0 +1,131 @@
+http:
+ #region routers 
+  routers:
+    proxmox:
+      entryPoints:
+        - "https"
+      rule: "Host(`pve.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: proxmox
+    proxmox1:
+      entryPoints:
+        - "https"
+      rule: "Host(`megatron.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: proxmox1
+    proxmox2:
+      entryPoints:
+        - "https"
+      rule: "Host(`sherka.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: proxmox2
+    portainer:
+      entryPoints:
+        - "https"
+      rule: "Host(`portainer.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: portainer
+    pihole:
+      entryPoints:
+        - "https"
+      rule: "Host(`pihole.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: pihole
+    truenas:
+      entryPoints:
+        - "https"
+      rule: "Host(`truenas.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: truenas
+    homepage:
+      entryPoints:
+        - "https"
+      rule: "Host(`homepage.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: homepage
+#endregion
+#region services
+  services:
+    proxmox:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.50:8006"
+        passHostHeader: true
+    proxmox1:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.51:8006"
+        passHostHeader: true
+    proxmox2:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.53:8006"
+        passHostHeader: true
+    portainer:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.130:9443"
+    pihole:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.173/admin"
+        passHostHeader: true
+    truenas:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.14"
+    homepage:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.130:3000"
+#endregion
+  middlewares:
+    https-redirectscheme:
+      redirectScheme:
+        scheme: https
+        permanent: true
+    default-headers:
+      headers:
+        frameDeny: true
+        browserXssFilter: true
+        contentTypeNosniff: true
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 15552000
+        customFrameOptionsValue: SAMEORIGIN
+        customRequestHeaders:
+          X-Forwarded-Proto: https
+
+    default-whitelist:
+      ipAllowList:
+        sourceRange:
+        - "192.168.0.0/16"
+        - "192.168.27.0/32"
+
+    secured:
+      chain:
+        middlewares:
+        - default-whitelist
+        - default-headers
