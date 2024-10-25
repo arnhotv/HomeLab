@@ -3,3 +3,8 @@ Terraform/PiHole/.terraform/providers/registry.terraform.io/ryanwholey/pihole/0.
 Terraform/PiHole/.terraform/providers/registry.terraform.io/ryanwholey/pihole/0.2.0/windows_amd64/terraform-provider-pihole_v0.2.0.exe
 Terraform/PiHole/.terraform/providers/registry.terraform.io/ryanwholey/pihole/0.2.0/windows_amd64/README.md
 Terraform/PiHole/.terraform.lock.hcl
+Terraform/TwinGate/.terraform.lock.hcl
+Terraform/TwinGate/terraform.tfstate.backup
+Terraform/TwinGate/.terraform/providers/registry.terraform.io/twingate/twingate/3.0.11/windows_amd64/LICENSE
+Terraform/TwinGate/.terraform/providers/registry.terraform.io/twingate/twingate/3.0.11/windows_amd64/README.md
+Terraform/TwinGate/.terraform/providers/registry.terraform.io/twingate/twingate/3.0.11/windows_amd64/terraform-provider-twingate_v3.0.11.exe
