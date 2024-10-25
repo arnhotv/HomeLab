@@ -6,6 +6,11 @@ terraform {
   }
 }
 
+variable "pihole_api_token" {
+    type = string
+    sensitive = true
+}
+
 provider "pihole" {
   url = "http://pihole.arnho.org" # PIHOLE_URL
 
