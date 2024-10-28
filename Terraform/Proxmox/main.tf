@@ -32,6 +32,7 @@ resource "proxmox_vm_qemu" "k3s-node-1" {
     }
 
     os_type = "cloud-init"
+    ipconfig0 = "ip=192.168.1.41/24,gw=192.168.1.254"
     nameserver = "192.168.1.173"
     searchdomain = "arnho.org"
 }
@@ -70,6 +71,7 @@ resource "proxmox_vm_qemu" "k3s-node-2" {
     }
 
     os_type = "cloud-init"
+    ipconfig0 = "ip=192.168.1.42/24,gw=192.168.1.254"
     nameserver = "192.168.1.173"
     searchdomain = "arnho.org"
 }
@@ -108,6 +110,7 @@ resource "proxmox_vm_qemu" "k3s-Master" {
     }
 
     os_type = "cloud-init"
+    ipconfig0 = "ip=192.168.1.40/24,gw=192.168.1.254"
     nameserver = "192.168.1.173"
     searchdomain = "arnho.org"
 }
