@@ -67,3 +67,30 @@ resource "twingate_resource" "pihole_DNS" {
     
     is_active = true
 }
+
+resource "twingate_resource" "UGame_IP" {
+    name              = "UGame_IP"
+    address           = "192.168.1.163"
+    remote_network_id = data.twingate_remote_network.arnho.id
+    security_policy_id = data.twingate_security_policy.default.id
+
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "ALLOW_ALL"
+        }
+        udp = {
+            policy = "ALLOW_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.IP_BarBone.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
