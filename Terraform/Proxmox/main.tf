@@ -1,5 +1,5 @@
-resource "proxmox_vm_qemu" "k3s-node-1" {
-    name = "k3s-node-1"
+resource "proxmox_vm_qemu" "ksnode1" {
+    name = "ksnode1"
     desc = "k3s Worker"
     vmid = "401"
     target_node = "pve"
@@ -37,8 +37,8 @@ resource "proxmox_vm_qemu" "k3s-node-1" {
     searchdomain = "arnho.org"
 }
 
-resource "proxmox_vm_qemu" "k3s-node-2" {
-    name = "k3s-node-2"
+resource "proxmox_vm_qemu" "ksnode2" {
+    name = "ksnode2"
     desc = "k3s Worker"
     vmid = "402"
     target_node = "megatron"
@@ -76,8 +76,8 @@ resource "proxmox_vm_qemu" "k3s-node-2" {
     searchdomain = "arnho.org"
 }
 
-resource "proxmox_vm_qemu" "k3s-Master" {
-    name = "k3s-Master"
+resource "proxmox_vm_qemu" "ksmaster" {
+    name = "ksMaster"
     desc = "k3s Master"
     vmid = "400"
     target_node = "sherka"
