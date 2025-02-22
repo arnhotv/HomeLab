@@ -8,20 +8,21 @@ resource "proxmox_vm_qemu" "ksnode1" {
     agent = 1
 
     clone = "RHEL9TMP"
+    full_clone = "true"
     cores = 2
     sockets = 1
     cpu = "host"
     memory = 4096
-    tags = "k3s"
+    tags = "k3s,linux,server"
 
     boot = "order=scsi0"
-
+    scsihw = "virtio-scsi-single"
     disks {
       scsi {
         scsi0 {
           disk {
             storage = "local-lvm"
-            size = 32
+            size = "32G"            
           }
         }
       }
@@ -47,11 +48,12 @@ resource "proxmox_vm_qemu" "ksnode2" {
     agent = 1
 
     clone = "RHEL9TMP"
+    full_clone = "true"
     cores = 2
     sockets = 1
     cpu = "host"
     memory = 4096
-    tags = "k3s"
+    tags = "k3s,linux,server"
 
     boot = "order=scsi0"
 
@@ -60,7 +62,7 @@ resource "proxmox_vm_qemu" "ksnode2" {
         scsi0 {
           disk {
             storage = "local-lvm"
-            size = 32
+            size = "32G"
           }
         }
       }
@@ -86,11 +88,12 @@ resource "proxmox_vm_qemu" "ksmaster" {
     agent = 1
 
     clone = "RHEL9TMP"
+    full_clone = "true"
     cores = 2
     sockets = 1
     cpu = "host"
     memory = 4096
-    tags = "k3s"
+    tags = "k3s,linux,server"
 
     boot = "order=scsi0"
 
@@ -99,7 +102,7 @@ resource "proxmox_vm_qemu" "ksmaster" {
         scsi0 {
           disk {
             storage = "local-lvm"
-            size = 32
+            size = "32G"
           }
         }
       }
