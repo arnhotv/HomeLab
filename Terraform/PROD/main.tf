@@ -139,17 +139,17 @@ resource "proxmox_vm_qemu" "ksmaster" {
 ########################### PIHOLE ###########################
 
 resource "pihole_dns_record" "ksmaster" {
-  domain = "ksmaster.arnho.org"
+  domain = "ksmaster.local.arnho.org"
   ip     = "192.168.1.40"
 }
 
 resource "pihole_dns_record" "ksnode1" {
-  domain = "ksnode1.arnho.org"
+  domain = "ksnode1.local.arnho.org"
   ip     = "192.168.1.41"
 }
 
 resource "pihole_dns_record" "ksnode2" {
-  domain = "ksnode2.arnho.org"
+  domain = "ksnode2.local.arnho.org"
   ip     = "192.168.1.42"
 }
 
@@ -186,7 +186,7 @@ resource "twingate_resource" "K3S_Master_IP" {
     address           = "192.168.1.40"
     remote_network_id = data.twingate_remote_network.arnho.id
     security_policy_id = data.twingate_security_policy.default.id
-
+    
     protocols = {
         allow_icmp = true
         tcp = {
@@ -209,7 +209,7 @@ resource "twingate_resource" "K3S_Master_IP" {
 }
 
 resource "twingate_resource" "K3S_Node1_IP" {
-    name              = "K3S_Master_IP"
+    name              = "K3S_Node1_IP"
     address           = "192.168.1.41"
     remote_network_id = data.twingate_remote_network.arnho.id
     security_policy_id = data.twingate_security_policy.default.id
@@ -231,12 +231,12 @@ resource "twingate_resource" "K3S_Node1_IP" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 
 resource "twingate_resource" "K3S_Node2_IP" {
-    name              = "K3S_Master_IP"
+    name              = "K3S_Node2_IP"
     address           = "192.168.1.42"
     remote_network_id = data.twingate_remote_network.arnho.id
     security_policy_id = data.twingate_security_policy.default.id
@@ -258,8 +258,6 @@ resource "twingate_resource" "K3S_Node2_IP" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
-    is_active = true
 }
 
 resource "twingate_resource" "pihole_DNS" {

@@ -9,12 +9,13 @@ terraform {
         }
         
         twingate = {
-        source = "Twingate/twingate"
-        version = "~> 3.0.11"
+            source = "Twingate/twingate"
+            version = "~> 3.0.11"
         }
 
         pihole = {
-        source = "ryanwholey/pihole"
+            source = "ryanwholey/pihole"
+            version = "2.0.0-beta.1"
         }
     }
 }
@@ -46,16 +47,15 @@ provider "proxmox" {
 
 ########################### PIHOLE ###########################
 
-variable "pihole_api_token" {
+variable "pihole_password" {
     type = string
     sensitive = true
 }
 
 provider "pihole" {
   url = "http://pihole.arnho.org" # PIHOLE_URL
-
   # Requires Pi-hole Web Interface >= 5.11.0
-  api_token = var.pihole_api_token # PIHOLE_API_TOKEN
+  password = var.pihole_password
 }
 
 ########################### TWINGATE ###########################
