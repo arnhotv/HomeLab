@@ -4,6 +4,7 @@
 provider "registry.terraform.io/ryanwholey/pihole" {
   version = "0.2.0"
   hashes = [
+    "h1:E1c/egK6GkZg9B3tkwSf18iVw8n2SNWNF6jCZnfNPlc=",
     "h1:bNkYykfQV7luoc4UFIEUg1u+FXYuaKoztvg5tvA/JEM=",
     "zh:340bf25085869ef0292ca4c4b916f509e7b3af9bf9c5b4dee9279fdf74287281",
     "zh:4dbed1af421a2b9379e99e9d896898b6597ca874ff071e874c5116ba62f7706c",

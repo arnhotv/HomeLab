@@ -17,6 +17,11 @@ resource "proxmox_vm_qemu" "ksnode1" {
 
     boot = "order=scsi0"
     scsihw = "virtio-scsi-single"
+
+    sshkeys = <<EOF
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
+    EOF
+
     disks {
       scsi {
         scsi0 {
@@ -56,6 +61,12 @@ resource "proxmox_vm_qemu" "ksnode2" {
     tags = "k3s,linux,server"
 
     boot = "order=scsi0"
+    scsihw = "virtio-scsi-single"
+
+
+    sshkeys = <<EOF
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
+    EOF
 
     disks {
       scsi {
@@ -96,6 +107,12 @@ resource "proxmox_vm_qemu" "ksmaster" {
     tags = "k3s,linux,server"
 
     boot = "order=scsi0"
+    scsihw = "virtio-scsi-single"
+
+
+    sshkeys = <<EOF
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
+    EOF
 
     disks {
       scsi {
@@ -135,6 +152,7 @@ resource "pihole_dns_record" "ksnode2" {
   domain = "ksnode2.arnho.org"
   ip     = "192.168.1.42"
 }
+
 resource "pihole_dns_record" "pihole" {
   domain = "pihole.arnho.org"
   ip = "192.168.1.173"
@@ -297,3 +315,5 @@ resource "twingate_resource" "UGame_IP" {
     
     is_active = true
 }
+
+########################### K3S ###########################
