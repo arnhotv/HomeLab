@@ -53,7 +53,7 @@ variable "pihole_password" {
 }
 
 provider "pihole" {
-  url = "http://pihole.arnho.org" # PIHOLE_URL
+  url = "https://pihole.arnho.org" # PIHOLE_URL
   # Requires Pi-hole Web Interface >= 5.11.0
   password = var.pihole_password
 }
