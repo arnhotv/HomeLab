@@ -14,6 +14,10 @@ terraform.tfvars.json
 # Directories
 **/.terraform/*
 
+# docker
+.env
+*api_token.txt
+
 # Do NOT ignore lock files (should be committed)
 !.terraform.lock.hcl
 
