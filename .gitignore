@@ -20,8 +20,3 @@ terraform.tfvars.json
 ## IDE
 .vscode/
 *.tfvars
-*.tfvars
-*.tfvars
-Terraform/PROD/credentials.auto.tfvars
-Terraform/PiHole/credentials.auto.tfvars
-Terraform/Proxmox/credentials.auto.tfvars
