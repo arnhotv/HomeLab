@@ -1,2 +1,0 @@
-pihole_api_token = "6e55e1dc4d7f3c7613cacfed58b4b646ff62879fa91e98a5710daf546b78bc37"
-pihole_password = "RTykhO8gLiml6GodchpbvYK/GGkQU42WuIme4rOXv3Q="
