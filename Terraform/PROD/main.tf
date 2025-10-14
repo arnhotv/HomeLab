@@ -1,167 +1,117 @@
-########################### PROXMOX ###########################
-resource "proxmox_vm_qemu" "ksnode1" {
-    name = "ksnode1"
-    desc = "k3s Worker"
-    vmid = "401"
-    target_node = "pve"
+########################### CLONES D'EXEMPLE ###########################
 
+# VM de test en VLAN20 (LAN) avec IP statique
+# resource "proxmox_vm_qemu" "U_game" {
+#     name = "U_game"
+#     vmid = "401"
+#     target_node = var.pve_pvenode
+#     agent = 1
+#     clone = "tpl-ubuntu-24.04"
+#     memory = 16384
+#     tags = "game"
+
+#     cpu {
+#       sockets = 1
+#       cores = 4
+#     }
+
+#     boot = "order=scsi0"
+
+#     disks {
+#       scsi {
+#         scsi0 {
+#           disk {
+#             storage = "local-lvm"
+#             size = 32
+#           }
+#         }
+#       }
+#     }
+
+#     network {
+#         id = 0
+#         bridge = "vmbr0"
+#         model = "virtio"
+#         tag = 20
+#     }
+
+#     os_type = "cloud-init"
+#     sshkeys   = var.ssh_public_key
+#     ipconfig0 = "ip=10.20.20.60/24,gw=10.20.20.1"
+#     nameserver = "10.20.20.53"
+#     searchdomain = "arnho.fr"
+# }
+
+########################### VM PROXMOX ###########################
+
+resource "proxmox_vm_qemu" "Dgame" {
+    name = "Dgame"
+    vmid = "100"
+    target_node = var.pve_pvenode
     agent = 1
+    memory = 16384
+    tags = "Debian,Game,LAN"
+    onboot = true
+    skip_ipv6 = true
 
-    clone = "RHEL9TMP"
-    full_clone = "true"
-    cores = 2
-    sockets = 1
-    cpu = "host"
-    memory = 4096
-    tags = "k3s,linux,server"
+    cpu {
+      sockets = 1
+      cores = 4
+    }
 
     boot = "order=scsi0"
-    scsihw = "virtio-scsi-single"
-
-    sshkeys = <<EOF
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
-    EOF
 
     disks {
       scsi {
         scsi0 {
           disk {
             storage = "local-lvm"
-            size = "32G"            
+            size = 500
           }
         }
       }
     }
 
     network {
+        id = 0
         bridge = "vmbr0"
         model = "virtio"
+        tag = 0
     }
 
     os_type = "cloud-init"
-    ipconfig0 = "ip=192.168.1.41/24,gw=192.168.1.254"
-    nameserver = "192.168.1.173"
-    searchdomain = "arnho.org"
-}
-
-resource "proxmox_vm_qemu" "ksnode2" {
-    name = "ksnode2"
-    desc = "k3s Worker"
-    vmid = "402"
-    target_node = "megatron"
-
-    agent = 1
-
-    clone = "RHEL9TMP"
-    full_clone = "true"
-    cores = 2
-    sockets = 1
-    cpu = "host"
-    memory = 4096
-    tags = "k3s,linux,server"
-
-    boot = "order=scsi0"
-    scsihw = "virtio-scsi-single"
-
-
-    sshkeys = <<EOF
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
-    EOF
-
-    disks {
-      scsi {
-        scsi0 {
-          disk {
-            storage = "local-lvm"
-            size = "32G"
-          }
-        }
-      }
-    }
-
-    network {
-        bridge = "vmbr0"
-        model = "virtio"
-    }
-
-    os_type = "cloud-init"
-    ipconfig0 = "ip=192.168.1.42/24,gw=192.168.1.254"
-    nameserver = "192.168.1.173"
-    searchdomain = "arnho.org"
-}
-
-resource "proxmox_vm_qemu" "ksmaster" {
-    name = "ksMaster"
-    desc = "k3s Master"
-    vmid = "400"
-    target_node = "sherka"
-
-    agent = 1
-
-    clone = "RHEL9TMP"
-    full_clone = "true"
-    cores = 2
-    sockets = 1
-    cpu = "host"
-    memory = 4096
-    tags = "k3s,linux,server"
-
-    boot = "order=scsi0"
-    scsihw = "virtio-scsi-single"
-
-
-    sshkeys = <<EOF
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEBxPNiWRK4WGW/w3YxiKOztKaeOzZH2/UOU+/09OIjwMTII6S9rjkaRYGHlx8xTY6Q5yNVX9eIGP0uuVSxFYNBSKTnH/KYg2YKTac5M8IEYLH+YPvAWlZ7auk5A1D0QOmiSWqokPGeioB+OtL51Odtmnzj9L7sOfaIP5NKN+tPqMQWj+GQ5IFVl7tDISS06wt+sHE3NGb+y7Nzk2ismwYb5m3oqExhQHbfsk9OwwPlDurye5AjwVdxjatHKabCKfCxKLYKOSThwdn7aR8zJeBteQeKM7N4b4x710f3W+YPdVAk247/2V9JGVvqthf2MbHF66K6YFbAYVGxqbTddEsOWTQYYC7ijSYXdAsCEu7D57zdKwLI8nHZbVpnO/qmaVU+dW5LSBWOiuTIokjmBLnd/Wwaq1HGOwRY0ExZomSjqBLGw77je0NJPAiXUt475H44DKY6Oa0ft/DtprkXLsUFm3za894iyJOoaLTrFohrdWSSmBvA3dhj0f8x3jcar8= arnho@SexPortatif
-    EOF
-
-    disks {
-      scsi {
-        scsi0 {
-          disk {
-            storage = "local-lvm"
-            size = "32G"
-          }
-        }
-      }
-    }
-
-    network {
-        bridge = "vmbr0"
-        model = "virtio"
-    }
-
-    os_type = "cloud-init"
-    ipconfig0 = "ip=192.168.1.40/24,gw=192.168.1.254"
-    nameserver = "192.168.1.173"
-    searchdomain = "arnho.org"
+    sshkeys   = var.ssh_public_key
+    ipconfig0 = "ip=10.20.20.60/24,gw=10.20.20.1"
+    nameserver = "10.20.20.53"
+    searchdomain = "arnho.fr"
 }
 
 ########################### PIHOLE ###########################
 
-resource "pihole_dns_record" "ksmaster" {
-  domain = "ksmaster.local.arnho.org"
-  ip     = "192.168.1.40"
+# Regroupe proprement les entrées A par VLAN
+locals {
+  records_a = merge(
+    var.records_a_mgmt,
+    var.records_a_lan,
+    var.records_a_dmz,
+    var.records_a_k8s
+  )
 }
 
-resource "pihole_dns_record" "ksnode1" {
-  domain = "ksnode1.local.arnho.org"
-  ip     = "192.168.1.41"
+# A records
+resource "pihole_dns_record" "a_records" {
+  for_each = local.records_a
+  domain   = each.key
+  ip       = each.value
 }
 
-resource "pihole_dns_record" "ksnode2" {
-  domain = "ksnode2.local.arnho.org"
-  ip     = "192.168.1.42"
+# CNAME records (alias -> cible)
+resource "pihole_cname_record" "cname_records" {
+  for_each = var.records_cname
+  domain   = each.key
+  target   = each.value
 }
 
-resource "pihole_dns_record" "pihole" {
-  domain = "pihole.arnho.org"
-  ip = "192.168.1.173"
-}
-
-resource "pihole_dns_record" "ugame" {
-  domain = "ugame.arnho.org"
-  ip = "192.168.1.163"
-}
 
 ########################### TWINGATE ###########################
 
@@ -173,20 +123,273 @@ data "twingate_security_policy" "default" {
   name = "Default Policy"
 }
 
-data "twingate_group" "IP_BarBone" {
-  id = "R3JvdXA6Mjc0MjU2"
+data "twingate_group" "Everyone" {
+  id = "R3JvdXA6MjUxNDE0"
 }
 
-data "twingate_group" "Admin" {
+data "twingate_group" "GameAdmin" {
   id = "R3JvdXA6MjczMjA0"
 }
 
-resource "twingate_resource" "K3S_Master_IP" {
-    name              = "K3S_Master_IP"
-    address           = "192.168.1.40"
-    remote_network_id = data.twingate_remote_network.arnho.id
-    security_policy_id = data.twingate_security_policy.default.id
+data "twingate_group" "Mgmt" {
+  id = "R3JvdXA6Mjc0MjU2"
+}
+
+data "twingate_group" "Lan" {
+  id = "R3JvdXA6NDEzNTM5"
+}
+
+data "twingate_group" "DMZ" {
+  id = "R3JvdXA6NDEzNTQw"
+}
+
+data "twingate_group" "IoT" {
+  id = "R3JvdXA6NDEzNTQx"
+}
+
+data "twingate_group" "K8s" {
+  id = "R3JvdXA6NDEzNTQz"
+}
+
+resource "twingate_resource" "Eggman_ui" {
+  name              = "Eggman-UI"
+  address           = "10.10.10.14"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["8006"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
     
+    is_active = true
+}
+resource "twingate_resource" "Eggman_ssh" {
+  name              = "Eggman-SSH"
+  address           = "10.10.10.14"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["22"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Pve_ui" {
+  name              = "Pve-UI"
+  address           = "10.20.20.11"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["8006"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Pve_ssh" {
+  name              = "Pve-SSH"
+  address           = "10.20.20.11"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["22"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Megatron_ui" {
+  name              = "Megatron-UI"
+  address           = "10.20.20.12"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["8006"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Megatron_ssh" {
+  name              = "Megatron-SSH"
+  address           = "10.20.20.12"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["22"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Sherka_ui" {
+  name              = "Sherka-UI"
+  address           = "10.20.20.13"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["8006"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Sherka_ssh" {
+  name              = "Sherka-SSH"
+  address           = "10.20.20.13"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["22"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "opnsense_ui" {
+  name              = "OPNsense-UI"
+  address           = "10.10.10.1"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["443"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "truenas_ui" {
+  name              = "TrueNAS-UI"
+  address           = "10.10.10.20"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
     protocols = {
         allow_icmp = true
         tcp = {
@@ -198,7 +401,59 @@ resource "twingate_resource" "K3S_Master_IP" {
     }
 
     dynamic "access_group" {
-        for_each = [data.twingate_group.IP_BarBone.id]
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "idrac_eggman" {
+  name              = "iDRAC-Eggman"
+  address           = "10.10.10.15"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["443"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "pihole_ui" {
+  name              = "Pi-Hole-UI"
+  address           = "10.20.20.53"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports =["443"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Lan.id]
         content {
             group_id = access_group.value
             security_policy_id = data.twingate_security_policy.default.id
@@ -208,110 +463,43 @@ resource "twingate_resource" "K3S_Master_IP" {
     is_active = true
 }
 
-resource "twingate_resource" "K3S_Node1_IP" {
-    name              = "K3S_Node1_IP"
-    address           = "192.168.1.41"
-    remote_network_id = data.twingate_remote_network.arnho.id
-    security_policy_id = data.twingate_security_policy.default.id
+########################### FREEBOX ###########################
 
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "ALLOW_ALL"
-        }
-        udp = {
-            policy = "ALLOW_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.IP_BarBone.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
-
-    is_active = true
+resource "freebox_port_forwarding" "VintageStory" {
+  enabled          = true
+  ip_protocol      = "udp"
+  target_ip        = "192.168.1.25"
+  comment          = "VintageStory"
+  source_ip        = "0.0.0.0"
+  source_port      = 42420
+  target_port      = 42420
 }
-
-resource "twingate_resource" "K3S_Node2_IP" {
-    name              = "K3S_Node2_IP"
-    address           = "192.168.1.42"
-    remote_network_id = data.twingate_remote_network.arnho.id
-    security_policy_id = data.twingate_security_policy.default.id
-
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "ALLOW_ALL"
-        }
-        udp = {
-            policy = "ALLOW_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.IP_BarBone.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
+resource "freebox_port_forwarding" "TF2" {
+  enabled          = true
+  ip_protocol      = "udp"
+  target_ip        = "192.168.1.25"
+  comment          = "TF2"
+  source_ip        = "0.0.0.0"
+  source_port      = 27015
+  target_port      = 27015
 }
-
-resource "twingate_resource" "pihole_DNS" {
-    name              = "pihole_DNS"
-    address           = "pihole.arnho.org"
-    remote_network_id = data.twingate_remote_network.arnho.id
-    security_policy_id = data.twingate_security_policy.default.id
-
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "ALLOW_ALL"
-        }
-        udp = {
-            policy = "ALLOW_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.Admin.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
-    
-    is_active = true
+resource "freebox_port_forwarding" "TF2_RCON" {
+  enabled          = true
+  ip_protocol      = "tcp"
+  target_ip        = "192.168.1.25"
+  comment          = "TF2_RCON"
+  source_ip        = "0.0.0.0"
+  source_port      = 27015
+  target_port      = 27015
 }
-
-resource "twingate_resource" "UGame_IP" {
-    name              = "UGame_IP"
-    address           = "192.168.1.163"
-    remote_network_id = data.twingate_remote_network.arnho.id
-    security_policy_id = data.twingate_security_policy.default.id
-
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "ALLOW_ALL"
-        }
-        udp = {
-            policy = "ALLOW_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.IP_BarBone.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
-    
-    is_active = true
+resource "freebox_port_forwarding" "MC_Vault" {
+  enabled          = true
+  ip_protocol      = "tcp"
+  target_ip        = "192.168.1.25"
+  comment          = "MC_Vault"
+  source_ip        = "0.0.0.0"
+  source_port      = 25565
+  target_port      = 25565
 }
 
 ########################### K3S ###########################

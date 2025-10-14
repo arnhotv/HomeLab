@@ -1,9 +1,16 @@
-proxmox_api_url = "https://192.168.1.50:8006/api2/json"
+proxmox_api_url = "https://10.20.20.11:8006/api2/json"
 proxmox_api_token_id = "root@pam!terraform"
 proxmox_api_token_secret = "c04ab9c1-cf4d-4b19-856e-a2d9b1799c8d"
+
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTM/j2HXM8IjqAfkV2KlLH0W1Vb8QueW0uct0Z/6PaR4cAHCUPGC5RsDQU6scdBzKbbwhkNs7SRfWT35/bJx0+Cz2LohJnp8MJoQobcqz+nOLkAQgrkajrZ5DvvSoqddcptCNYsXLrCpVdBL6UBqylqrnTdfc98bkxRDaH3p2HrNbf8EsnZIedS2NfzU0co3rsduG5aRVucNgg0w78Qo9u0/EXS5X30vD/TfZkeT0C9Foa1Af9WyXQHl99UUzLd2P1N/gqUh8IwL4mRq+ClyvKvnS8P3epaouckCaMVCEOvfhlD/NBybi5tSPA0bJE/FCBdPMpVGOaSjdWcxsgQGgid1Dx5eR3lpJxAUi+aiPC+Wnj3ayoZ0T0qYiCL/ttwc9G4e4jtscAB3jJC+baW3VNK8NiFazoRIVvUDTBkNug/59QqVlT0klfoUUszzw4VZlCcmJxrb1XBsKFv5Xs1hZ/Ei1JmL1fR+x107V4UpP15MNGKukhKp1zsXAkuFzZHzU= arnho@WINDOB11"
 
 twingate_remote_network = "arnho"
 twingate_api_token = "DPMGRVZD7fMzCCOUOrM1D0fqvwFOhYAOLggARHTCBueGwApWUD1Qj1hscpMHKHrMB6wkK6VGUUxoiRoiaTRm4Ixf7s-j-WfECs8WcW2GeOKCgSf8xCF7ue7c4xZZl1TfRBMlsA"
 
-#pihole_api_token = "6e55e1dc4d7f3c7613cacfed58b4b646ff62879fa91e98a5710daf546b78bc37"
+pihole_api_token = "6e55e1dc4d7f3c7613cacfed58b4b646ff62879fa91e98a5710daf546b78bc37"
 pihole_password = "RTykhO8gLiml6GodchpbvYK/GGkQU42WuIme4rOXv3Q="
+
+FREEBOX_APP_ID = "terraform-provider-freebox"
+FREEBOX_ENDPOINT = "http://mafreebox.freebox.fr"
+FREEBOX_TOKEN = "/hyoXo+QzY6mYrNi4IasjHqtClhw4gwB9HEI4mE0Iv6vL5UMEX4XCgSaWXc64Wmg"
+FREEBOX_VERSION = "latest"

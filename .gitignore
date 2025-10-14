@@ -22,3 +22,6 @@ terraform.tfvars.json
 *.tfvars
 *.tfvars
 *.tfvars
+Terraform/PROD/credentials.auto.tfvars
+Terraform/PiHole/credentials.auto.tfvars
+Terraform/Proxmox/credentials.auto.tfvars

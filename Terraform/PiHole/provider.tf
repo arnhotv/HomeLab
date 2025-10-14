@@ -1,19 +1,26 @@
 terraform {
   required_providers {
     pihole = {
-      source = "ryanwholey/pihole"
+      source  = "lukaspustina/pihole"
+      version = "~> 0.3.0"
     }
   }
 }
 
 variable "pihole_api_token" {
-    type = string
-    sensitive = true
+  type      = string
+  sensitive = true
 }
 
-provider "pihole" {
-  url = "http://pihole.arnho.org" # PIHOLE_URL
+variable "pihole_password" {
+  type      = string
+  sensitive = true
+  description = "Mot de passe admin Pi-hole"
+}
 
-  # Requires Pi-hole Web Interface >= 5.11.0
-  api_token = var.pihole_api_token # PIHOLE_API_TOKEN
+# Pi-hole écoute en HTTPS avec cert auto-signé → insecure_tls = true (à ajuster si besoin)
+provider "pihole" {
+  url          = "https://10.20.20.53"
+  password     = var.pihole_password
+  insecure_tls = true
 }
