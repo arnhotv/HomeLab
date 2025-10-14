@@ -1,2 +1,0 @@
-twingate_remote_network = "arnho"
-twingate_api_token = "DPMGRVZD7fMzCCOUOrM1D0fqvwFOhYAOLggARHTCBueGwApWUD1Qj1hscpMHKHrMB6wkK6VGUUxoiRoiaTRm4Ixf7s-j-WfECs8WcW2GeOKCgSf8xCF7ue7c4xZZl1TfRBMlsA"
