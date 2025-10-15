@@ -44,13 +44,13 @@
 
 ########################### VM PROXMOX ###########################
 
-resource "proxmox_vm_qemu" "Dgame" {
-    name = "Dgame"
+resource "proxmox_vm_qemu" "Ugame" {
+    name = "Ugame"
     vmid = "100"
     target_node = var.pve_pvenode
     agent = 1
     memory = 16384
-    tags = "Debian,Game,LAN"
+    tags = "Ubuntu,Game,LAN"
     onboot = true
     skip_ipv6 = true
 
@@ -59,9 +59,16 @@ resource "proxmox_vm_qemu" "Dgame" {
       cores = 4
     }
 
-    boot = "order=scsi0"
+    boot = "order=scsi0;ide2"
 
-    disks {
+    disks {      
+      ide {
+        ide2 {
+          cdrom {
+            iso = "ubuntu-25.10-live-server-amd64.iso"
+          }
+        }
+      }      
       scsi {
         scsi0 {
           disk {
