@@ -1,0 +1,24 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/nikolalohinski/freebox" {
+  version = "2.4.0"
+  hashes = [
+    "h1:QNuBOVifTncmHOaJTrpke1bShDeDSwU0VCD1O6vBOAI=",
+    "zh:0517700103858392d20cfd8a92b01e6223ccafca659b0128b790448b413ab025",
+    "zh:0cfb5d9c80632f295a6e31eef3592dfcf4686663cd138aed56725d2a02484ab6",
+    "zh:0e9d53af0fb414d7c13e8d92f14f564011eb4f93ddd7d020462c0bdb01992af0",
+    "zh:0eacc4c3c71d77ce9c151c18d21e6b3e902d356a20cab6d2b53f08ae1a881afc",
+    "zh:21bb496c2091a26b72b9dbbf89c93415fdac5f7a40ea874de7824c3c72308666",
+    "zh:28cba832b5361acccf602796f143c741a34cb659db8b3b673a539df505a06496",
+    "zh:7b1212597135951ac247b488d9c85526b5c4f524e2b8c4c1ad9d2dd054c6ba2e",
+    "zh:7e9779c36cfa281e8596e3a95b7ea327fed0a7415956ec311537ad1182029130",
+    "zh:890df766e9b839623b1f0437355032a3c006226a6c200cd911e15ee1a9014e9f",
+    "zh:bd11e8839040e06f7e532b21bd2744fe681cb871d4750eed44e11b1a276a6c63",
+    "zh:be31f5948513043ada44b40014126674be58d075294d992e93fc1d5a132820c9",
+    "zh:c9f0f151eb0d4a6690ab9e798e00df0e9efde679c865693e2e435c3ab5bd41f7",
+    "zh:d8c27d42b04e66dc5e5f46d16621b71e50c5a0c9c5d0d314c82edae25361392c",
+    "zh:f1f2fe1fa52c240c9ee80b4a4c516fea83a35fb4a766787ef5544a98a53e12b9",
+    "zh:f28f44b626aaef11e6a551189e0ce4787cc268a4a1a116baf7dd69904c859be2",
+  ]
+}
