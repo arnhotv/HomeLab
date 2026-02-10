@@ -31,8 +31,8 @@ resource "freebox_port_forwarding" "MC_Vault" {
   target_ip        = "192.168.1.25"
   comment          = "MC_Vault"
   source_ip        = "0.0.0.0"
-  port_range_start = 32769
-  port_range_end   = 32769
+  port_range_start = 25565
+  port_range_end   = 25565
   # source_port      = 25565
   # target_port      = 25565
 }

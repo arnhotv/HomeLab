@@ -62,7 +62,7 @@ variable "pihole_password" {
 
 # Pi-hole écoute en HTTPS avec cert auto-signé → insecure_tls = true (à ajuster si besoin)
 provider "pihole" {
-  url          = "https://10.20.20.53"
+  url          = "https://192.168.1.204"
   password     = var.pihole_password
   insecure_tls = true
 }
