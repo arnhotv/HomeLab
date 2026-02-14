@@ -3,14 +3,15 @@ variable "records_a_mgmt" {
   description = "A records pour le VLAN MGMT (10.10.10.0/24)"
   type        = map(string)
   default     = {
-    "truenas.arnho.fr"  = "192.168.1.203"  # VM TrueNAS (à créer)
-    "idrac-eggman.arnho.fr" = "192.168.1.202"
-    "pve.arnho.fr"             = "192.168.1.205"
-    "proxmox-pve.arnho.fr"     = "192.168.1.205"
-    "megatron.arnho.fr"        = "192.168.1.206"
-    "proxmox-megatron.arnho.fr"= "192.168.1.206"
-    "sherka.arnho.fr"          = "192.168.1.207"
-    "proxmox-sherka.arnho.fr"  = "192.168.1.207"
+    "truenas.arnho-lab.fr"              = "192.168.1.203"  # VM TrueNAS (à créer)
+    "idrac.arnho-lab.fr"                = "192.168.1.202"
+    "stalker.arnho-lab.fr"              = "192.168.1.206"
+    "proxmox-stalker.arnho-lab.fr"      = "192.168.1.206"
+    "monolith.arnho-lab.fr"             = "192.168.1.205"
+    "proxmox-monolith.arnho-lab.fr"     = "192.168.1.205"
+    "spark.arnho-lab.fr"                = "192.168.1.207"
+    "proxmox-spark.arnho-lab.fr"        = "192.168.1.207"
+    "freebox.arnho-lab.fr"              = "192.168.1.254"
     }
 }
 
@@ -19,9 +20,9 @@ variable "records_a_lan" {
   description = "A records pour le VLAN LAN (10.20.20.0/24)"
   type        = map(string)
   default     = {
-    "pihole.arnho.fr" = "192.168.1.204"
-    "ugame.arnho.fr" = "192.168.1.208" # VM UGame (à créer)
-    # "ugame.arnho.fr" = "10.20.20.X"  # décommente et renseigne si tu veux publier UGame
+    "pihole.arnho-lab.fr"   = "192.168.1.204"
+    "ugame.arnho-lab.fr"    = "192.168.1.208" # VM UGame (à créer)
+    # "ugame.arnho-lab.fr" = "10.20.20.X"  # décommente et renseigne si tu veux publier UGame
   }
 }
 
@@ -30,7 +31,8 @@ variable "records_a_dmz" {
   description = "A records pour le VLAN DMZ (10.30.30.0/24)"
   type        = map(string)
   default     = {
-    "twingate.arnho.fr" = "192.168.1.209"
+    "twingate.arnho-lab.fr" = "192.168.1.209"
+    "clouddocker.arnho-lab.fr" = "192.168.1.210"
   }
 }
 
@@ -49,9 +51,9 @@ variable "records_a_k8s" {
   type        = map(string)
   default     = {
     # Exemple si tu fixes tes IPs K8s :
-    # "ksmaster.arnho.fr" = "10.50.50.10"
-    # "ksnode1.arnho.fr"  = "10.50.50.11"
-    # "ksnode2.arnho.fr"  = "10.50.50.12"
+    # "ksmaster.arnho-lab.fr" = "10.50.50.10"
+    # "ksnode1.arnho-lab.fr"  = "10.50.50.11"
+    # "ksnode2.arnho-lab.fr"  = "10.50.50.12"
   }
 }
 
@@ -60,49 +62,49 @@ variable "records_cname" {
   description = "Alias CNAME"
   type        = map(string)
   default     = {
-    "proxmox.arnho.fr" = "proxmox-pve.arnho.fr"
-    # "pve-ui.arnho.fr"      = "proxmox-pve.arnho.fr"
-    # "megatron-ui.arnho.fr" = "proxmox-megatron.arnho.fr"
-    # "sherka-ui.arnho.fr"   = "proxmox-sherka.arnho.fr"
-    "nas.arnho.fr"  = "truenas.arnho.fr"
-    "dns.arnho.fr"  = "pihole.arnho.fr"
-    "tg.arnho.fr"   = "twingate.arnho.fr"
+    "px.arnho-lab.fr" = "proxmox-stalker.arnho-lab.fr"
+    # "pve-ui.arnho-lab.fr"      = "proxmox-stalker.arnho-lab.fr"
+    # "megatron-ui.arnho-lab.fr" = "proxmox-monolith.arnho-lab.fr"
+    # "sherka-ui.arnho-lab.fr"   = "proxmox-spark.arnho-lab.fr"
+    "nas.arnho-lab.fr"  = "truenas.arnho-lab.fr"
+    "tg.arnho-lab.fr"   = "twingate.arnho-lab.fr"
+    "cloud.arnho-lab.fr" = "clouddocker.arnho-lab.fr"
   }
 }
 
 
 # ===== Proxmox / SSH =====
-variable "pve_pvenode" {
+variable "pve_stalkernode" {
   description = "Nom du nœud Proxmox où créer les templates/VMs"
   type        = string
-  default     = "pve"
+  default     = "stalker"
 }
 
-variable "pve_meganode" {
+variable "pve_monolithnode" {
   description = "Nom du nœud Proxmox où créer les templates/VMs"
   type        = string
-  default     = "megatron"
+  default     = "monolith"
 }
 
-variable "pve_serkanode" {
+variable "pve_sparknode" {
   description = "Nom du nœud Proxmox où créer les templates/VMs"
   type        = string
-  default     = "sherka"
+  default     = "spark"
 }
 
-variable "pve_pvehost" {
-  description = "Adresse IP/hostname du nœud pour SSH"
-  type        = string
-  default     = "192.168.1.205"
-}
-
-variable "pve_megahost" {
+variable "pve_stalkerhost" {
   description = "Adresse IP/hostname du nœud pour SSH"
   type        = string
   default     = "192.168.1.206"
 }
 
-variable "pve_sherkahost" {
+variable "pve_monolithhost" {
+  description = "Adresse IP/hostname du nœud pour SSH"
+  type        = string
+  default     = "192.168.1.205"
+}
+
+variable "pve_sparkhost" {
   description = "Adresse IP/hostname du nœud pour SSH"
   type        = string
   default     = "192.168.1.207"

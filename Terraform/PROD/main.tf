@@ -1,97 +1,117 @@
-########################### CLONES D'EXEMPLE ###########################
-
-# VM de test en VLAN20 (LAN) avec IP statique
-# resource "proxmox_vm_qemu" "U_game" {
-#     name = "U_game"
-#     vmid = "401"
-#     target_node = var.pve_pvenode
-#     agent = 1
-#     clone = "tpl-ubuntu-24.04"
-#     memory = 16384
-#     tags = "game"
-
-#     cpu {
-#       sockets = 1
-#       cores = 4
-#     }
-
-#     boot = "order=scsi0"
-
-#     disks {
-#       scsi {
-#         scsi0 {
-#           disk {
-#             storage = "local-lvm"
-#             size = 32
-#           }
-#         }
-#       }
-#     }
-
-#     network {
-#         id = 0
-#         bridge = "vmbr0"
-#         model = "virtio"
-#         tag = 20
-#     }
-
-#     os_type = "cloud-init"
-#     sshkeys   = var.ssh_public_key
-#     ipconfig0 = "ip=10.20.20.60/24,gw=10.20.20.1"
-#     nameserver = "10.20.20.53"
-#     searchdomain = "arnho.fr"
-# }
-
 ########################### VM PROXMOX ###########################
 
-# resource "proxmox_vm_qemu" "Ugame" {
-#     name = "Ugame"
-#     vmid = "100"
-#     target_node = var.pve_pvenode
-#     agent = 1
-#     memory = 16384
-#     tags = "Ubuntu,Game,LAN"
-#     onboot = true
-#     skip_ipv6 = true
+resource "proxmox_vm_qemu" "Nextcloud" {
+    name = "Nextcloud"
+    vmid = "100"
+    target_node = var.pve_monolithnode
+    boot = "order=scsi0"
+    vm_state = "running"
+    agent = 1
+    memory = 4096
+    tags = "nextcloud"
+    skip_ipv6 = true
+    clone = "TPLRHEL9"
+    full_clone = true
+    scsihw = "virtio-scsi-single"
+    startup_shutdown {
+      order = "-1"
+      shutdown_timeout = "-1"
+      startup_delay = "-1"   
+    }
+    cpu {
+      sockets = 1
+      cores = 2
+      type = "host"
+    }
 
-#     cpu {
-#       sockets = 1
-#       cores = 4
-#     }
+    disks {           
+      scsi {
+        scsi0 {
+          disk {
+            storage = "local-lvm"
+            cache = "writeback"
+            discard = true
+            iothread = "1"
+            size = 20
+          }
+        }
+      }
+    }
 
-#     boot = "order=scsi0;ide2"
+    network {
+        id = 0
+        bridge = "vmbr0"
+        model = "virtio"
+        tag = 0
+    }
+    ipconfig0   = "ip=192.168.1.210/24,gw=192.168.1.254"
+    os_type     = "cloud-init"
+    nameserver  = "192.168.1.204"
+    searchdomain = "arnho-lab.fr"
+    sshkeys     = var.ssh_public_key
 
-#     disks {      
-#       ide {
-#         ide2 {
-#           cdrom {
-#             iso = "ubuntu-25.10-live-server-amd64.iso"
-#           }
-#         }
-#       }      
-#       scsi {
-#         scsi0 {
-#           disk {
-#             storage = "local-lvm"
-#             size = 500
-#           }
-#         }
-#       }
-#     }
+}
+resource "proxmox_vm_qemu" "AMP" {
+    name = "AMP"
+    vmid = 101
+    target_node = var.pve_stalkernode
+    agent = 1
+    memory = 16384
+    tags = "amp,cloud-init"
+    boot = "order=scsi0"
+    vm_state = "running"
+    clone = "ubuntu-cloudinit"
+    scsihw = "virtio-scsi-single"
+    automatic_reboot = true
 
-#     network {
-#         id = 0
-#         bridge = "vmbr0"
-#         model = "virtio"
-#         tag = 0
-#     }
+    cicustom   = "vendor=local:snippets/qemu-guest-agent.yml"
+    ciupgrade = true
+    nameserver = "192.168.1.204 192.168.1.254"
+    ipconfig0 = "ip=192.168.1.212/24,gw=192.168.1.254"
+    skip_ipv6 = true
+    ciuser = "root"
+    cipassword = "ey$cW5uEJz3D9E@U"
+    sshkeys = var.ssh_public_key
 
-#     os_type = "cloud-init"
-#     sshkeys   = var.ssh_public_key
-#     ipconfig0 = "ip=10.20.20.60/24,gw=10.20.20.1"
-#     nameserver = "10.20.20.53"
-#     searchdomain = "arnho.fr"
-# }
+    startup_shutdown {
+      order = "-1"
+      shutdown_timeout = "-1"
+      startup_delay = "-1"   
+    }
+    cpu {
+      sockets = 1
+      cores = 8
+      type = "host"
+    }
+    serial {
+        id = 0
+    }
+    disks {           
+      scsi {
+        scsi0 {
+          disk {
+            storage = "local-lvm"
+            discard = true
+            iothread = "1"
+            size = 32
+            emulatessd = true
+          }
+        }
+      }
+      ide {
+        ide1 {
+          cloudinit {
+            storage = "local-lvm"
+          }
+        }
+      }
+    }
+      network {
+    id = 0
+    bridge = "vmbr0"
+    model  = "virtio"
+  }
+}
 
 ########################### PIHOLE ###########################
 
@@ -187,6 +207,32 @@ resource "twingate_resource" "MicroTikSFP_ui" {
 resource "twingate_resource" "TpLink5_ui" {
   name              = "TP-Link-UI"
   address           = "192.168.1.201"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports =["80","443"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "iDRAC_ui" {
+  name              = "iDRAC-UI"
+  address           = "192.168.1.202"
   remote_network_id = data.twingate_remote_network.arnho.id
   security_policy_id = data.twingate_security_policy.default.id
     protocols = {
@@ -314,60 +360,8 @@ resource "twingate_resource" "pihole_ssh" {
     
     is_active = true
 }
-resource "twingate_resource" "Pve_ui" {
-  name              = "Pve-UI"
-  address           = "192.168.1.205"
-  remote_network_id = data.twingate_remote_network.arnho.id
-  security_policy_id = data.twingate_security_policy.default.id
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "RESTRICTED"
-            ports = ["8006"]
-        }
-        udp = {
-            policy = "DENY_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.Mgmt.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
-    
-    is_active = true
-}
-resource "twingate_resource" "Pve_ssh" {
-  name              = "Pve-SSH"
-  address           = "192.168.1.205"
-  remote_network_id = data.twingate_remote_network.arnho.id
-  security_policy_id = data.twingate_security_policy.default.id
-    protocols = {
-        allow_icmp = true
-        tcp = {
-            policy = "RESTRICTED"
-            ports = ["22"]
-        }
-        udp = {
-            policy = "DENY_ALL"
-        }
-    }
-
-    dynamic "access_group" {
-        for_each = [data.twingate_group.Mgmt.id]
-        content {
-            group_id = access_group.value
-            security_policy_id = data.twingate_security_policy.default.id
-        }
-    }
-    
-    is_active = true
-}
-resource "twingate_resource" "Megatron_ui" {
-  name              = "Megatron-UI"
+resource "twingate_resource" "Stalker_ui" {
+  name              = "Stalker-UI"
   address           = "192.168.1.206"
   remote_network_id = data.twingate_remote_network.arnho.id
   security_policy_id = data.twingate_security_policy.default.id
@@ -392,8 +386,8 @@ resource "twingate_resource" "Megatron_ui" {
     
     is_active = true
 }
-resource "twingate_resource" "Megatron_ssh" {
-  name              = "Megatron-SSH"
+resource "twingate_resource" "Stalker_ssh" {
+  name              = "Stalker-SSH"
   address           = "192.168.1.206"
   remote_network_id = data.twingate_remote_network.arnho.id
   security_policy_id = data.twingate_security_policy.default.id
@@ -418,8 +412,60 @@ resource "twingate_resource" "Megatron_ssh" {
     
     is_active = true
 }
-resource "twingate_resource" "Sherka_ui" {
-  name              = "Sherka-UI"
+resource "twingate_resource" "Monolith_ui" {
+  name              = "Monolith-UI"
+  address           = "192.168.1.205"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["8006"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Monolith_ssh" {
+  name              = "Monolith-SSH"
+  address           = "192.168.1.205"
+  remote_network_id = data.twingate_remote_network.arnho.id
+  security_policy_id = data.twingate_security_policy.default.id
+    protocols = {
+        allow_icmp = true
+        tcp = {
+            policy = "RESTRICTED"
+            ports = ["22"]
+        }
+        udp = {
+            policy = "DENY_ALL"
+        }
+    }
+
+    dynamic "access_group" {
+        for_each = [data.twingate_group.Mgmt.id]
+        content {
+            group_id = access_group.value
+            security_policy_id = data.twingate_security_policy.default.id
+        }
+    }
+    
+    is_active = true
+}
+resource "twingate_resource" "Spark_ui" {
+  name              = "Spark-UI"
   address           = "192.168.1.207"
   remote_network_id = data.twingate_remote_network.arnho.id
   security_policy_id = data.twingate_security_policy.default.id
@@ -444,8 +490,8 @@ resource "twingate_resource" "Sherka_ui" {
     
     is_active = true
 }
-resource "twingate_resource" "Sherka_ssh" {
-  name              = "Sherka-SSH"
+resource "twingate_resource" "Spark_ssh" {
+  name              = "Spark-SSH"
   address           = "192.168.1.207"
   remote_network_id = data.twingate_remote_network.arnho.id
   security_policy_id = data.twingate_security_policy.default.id
