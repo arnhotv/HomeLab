@@ -60,9 +60,14 @@ variable "pihole_password" {
   description = "Mot de passe admin Pi-hole"
 }
 
+variable "pihole_url" {
+  type        = string
+  description = "URL de l'API Pi-hole"
+}
+
 # Pi-hole écoute en HTTPS avec cert auto-signé → insecure_tls = true (à ajuster si besoin)
 provider "pihole" {
-  url          = "https://192.168.1.204"
+  url          = var.pihole_url
   password     = var.pihole_password
   insecure_tls = true
 }

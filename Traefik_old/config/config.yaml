@@ -1,0 +1,163 @@
+http:
+#region routers
+  routers:
+    pve:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`pve.local.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: pve
+    megatron:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`megatron.local.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: megatron
+    sherka:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`sherka.local.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: megatron
+    pihole:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`pihole.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls:
+        certResolver: cloudflare
+      service: pihole
+    portainer:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`portainer.local.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: portainer
+    webmin:
+      entryPoints:
+        - "web"
+      rule: "Host(`webmin.local.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: webmin
+    truenas:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`truenas.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: truenas
+    amp:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`amp.arnho.org`)"
+      middlewares:
+        - default-headers
+        - https-redirectscheme
+      tls: {}
+      service: amp
+    vaultwarden:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`vault.arnho.org`)"
+      middlewares:
+        - https-redirectscheme
+      tls: {}
+      service: vaultwarden
+#endregion
+#region services
+  services:
+    pve:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.50:8006"
+        passHostHeader: true
+    megatron:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.51:8006"
+        passHostHeader: true
+    sherka:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.53:8006"
+        passHostHeader: true
+    pihole:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.173:80"
+        passHostHeader: true
+    portainer:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.130:9443"
+    webmin:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.1.163:10000"
+        passHostHeader: true
+    truenas:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.14"
+        passHostHeader: true
+    amp:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.1.163:8080"
+        passHostHeader: true
+    vaultwarden:
+      loadBalancer:
+        servers:
+          - url: "https://192.168.1.88:8000"
+#endregion
+  middlewares:
+    auth:
+      basicAuth:
+        users:
+          TRAEFIK_DASHBOARD_CREDENTIALS: ${TRAEFIK_DASHBOARD_CREDENTIALS}
+    https-redirectscheme:
+      redirectScheme:
+        scheme: https
+        permanent: true
+    default-headers:
+      headers:
+        frameDeny: true
+        browserXssFilter: true
+        contentTypeNosniff: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 15552000
+        customFrameOptionsValue: SAMEORIGIN
+        customRequestHeaders:
+          X-Forwarded-Proto: https
+    
+    default-whitelist:
+      ipWhiteList:
+        sourceRange:
+        - "192.168.0.0/16"
+        - "192.168.27.0/32"
+
+    secured:
+      chain:
+        middlewares:
+        - default-whitelist
+        - default-headers

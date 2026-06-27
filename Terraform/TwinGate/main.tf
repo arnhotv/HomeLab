@@ -57,7 +57,7 @@ data "twingate_group" "K8s" {
 #             security_policy_id = data.twingate_security_policy.default.id
 #         }
 #     }
-    
+
 #     is_active = true
 # }
 
@@ -84,7 +84,7 @@ resource "twingate_resource" "Eggman_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Eggman_ssh" {
@@ -110,7 +110,7 @@ resource "twingate_resource" "Eggman_ssh" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Pve_ui" {
@@ -136,7 +136,7 @@ resource "twingate_resource" "Pve_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Pve_ssh" {
@@ -162,7 +162,7 @@ resource "twingate_resource" "Pve_ssh" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Megatron_ui" {
@@ -188,7 +188,7 @@ resource "twingate_resource" "Megatron_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Megatron_ssh" {
@@ -214,7 +214,7 @@ resource "twingate_resource" "Megatron_ssh" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Sherka_ui" {
@@ -240,7 +240,7 @@ resource "twingate_resource" "Sherka_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "Sherka_ssh" {
@@ -266,7 +266,7 @@ resource "twingate_resource" "Sherka_ssh" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "opnsense_ui" {
@@ -292,7 +292,7 @@ resource "twingate_resource" "opnsense_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "truenas_ui" {
@@ -317,7 +317,7 @@ resource "twingate_resource" "truenas_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "idrac_eggman" {
@@ -343,7 +343,7 @@ resource "twingate_resource" "idrac_eggman" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "pihole_ui" {
@@ -369,7 +369,7 @@ resource "twingate_resource" "pihole_ui" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
 resource "twingate_resource" "pihole_ssh" {
@@ -395,6 +395,6 @@ resource "twingate_resource" "pihole_ssh" {
             security_policy_id = data.twingate_security_policy.default.id
         }
     }
-    
+
     is_active = true
 }
